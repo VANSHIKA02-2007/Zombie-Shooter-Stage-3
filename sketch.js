@@ -287,10 +287,6 @@ function draw() {
     text("Score:"+ score, 50,60);
     text("Lives:", 900, 60);
     text("Bullets:" + bullets, 50, 100);
-    
-    textSize(30);
-    fill("blue");
-    text("Increase your Score to 180 for Winning the Game", 220, 80);
 }
 
 function createZombies()
